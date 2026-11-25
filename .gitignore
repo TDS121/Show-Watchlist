@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# secrets: API keys and the session secret live only in backend/.env
+.env
+.env.*
+!.env.example
+
+# builds
+dist/
+
+# from CLAUDE.md (kept in case anything SQLite or Python ever shows up)
+*.db
+__pycache__/
+
+# misc
+.DS_Store
+*.log

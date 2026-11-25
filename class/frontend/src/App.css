@@ -1,0 +1,65 @@
+/* from lab 9 - starter/App.css and the optional styling in step 18 */
+
+body {
+  margin: 0;
+  background-color: #eef2f7;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 24px;
+}
+
+h1 {
+  color: darkslateblue;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 260px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.form input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.form button,
+.App button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: darkslateblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.form button:hover,
+.App button:hover {
+  background-color: slateblue;
+}
+
+/* Create account: same button, but outlined so Login stands out */
+.form button.secondary {
+  background-color: white;
+  color: darkslateblue;
+  border: 1px solid darkslateblue;
+}
+
+.form button.secondary:hover {
+  background-color: #eef2f7;
+}
+
+.error {
+  color: crimson;
+  margin: 0;
+}
